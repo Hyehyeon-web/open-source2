@@ -1,0 +1,162 @@
+body,
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+table,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1;
+	font-family: "Open Sans", "Noto Sans KR", sans-serif;
+	font-size: 1em;
+	color: #000;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	vertical-align: top;
+}
+
+.section_bottomcon_wrap {
+	width: 100%;
+	background: #fff;
+}
+
+.bottomcon .bottomcon_inner {
+	display: table;
+	width: 1150px;
+	height: 150px;
+	margin: 0 auto;
+	overflow: visible;
+}
+
+.bottomcon .bottomcon_inner .nw_news {
+	width: 740px;
+	padding-top: 46px;
+	float: left;
+}
+
+.bottomcon .bottomcon_inner .nw_news .first {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 25px;
+}
+
+.bottomcon .bottomcon_inner .nw_news > h3 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
+	letter-spacing: -0.5px;
+}
+
+.bottomcon .bottomcon_inner .nw_news .nw_news_list a {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	font-size: 14px;
+	line-height: 25px;
+	letter-spacing: -0.5px;
+}
+
+.bottomcon .bottomcon_inner .nw_news .nw_news_list a span {
+	color: #333;
+}
+
+.bottomcon .bottomcon_inner .bottomcon_right {
+	padding: 40px 0 0 58px;
+	width: 390px;
+	float: right;
+	box-sizing: border-box;
+}
+
+.bottomcon_right .link-box {
+	width: 100%;
+	height: 150px;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	text-align: center;
+	overflow: visible;
+}
+
+.bottomcon_right .link-box li {
+	float: left;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #ddd;
+}
+
+.bottomcon_right .link-box li:nth-child(even) {
+	border-right: 0;
+}
+
+.bottomcon_right .link-box li:nth-child(1) a {
+	border-radius: 10px 0 0 0;
+}
+
+.bottomcon_right .link-box li:nth-child(2) a {
+	border-radius: 0 10px 0 0;
+}
+
+.bottomcon_right .link-box li:nth-child(5) a {
+	border-radius: 0 0 0 10px;
+}
+
+.bottomcon_right .link-box li:nth-child(6) a {
+	border-radius: 0 0 10px 0;
+}
+
+.bottomcon_right .link-box li:nth-child(5),
+.bottomcon_right .link-box li:nth-child(6) {
+	border-bottom: 0;
+}
+
+.bottomcon_right .link-box li a {
+	display: inline-block;
+	width: 164.5px;
+	height: 48.5px;
+	font-size: 14px;
+	line-height: 48px;
+	color: #091615;
+	letter-spacing: -0.5px
+}
+
+.bottomcon_right .link-box li a:hover,
+.bottomcon_right .link-box li a:focus {
+	background: #f9f9f9;
+	text-decoration: underline;
+}
+
+.appcon .appcon_inner {
+	width: 1150px;
+	height: 158px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.appcon .appcon_inner ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 48px auto;
+	width: 920px;
+}
